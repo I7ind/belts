@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Patrick Hand SC', cursive;
+
+}
+/*         Nav- Bar      */
+#main-nav{
+    width: auto;
+    display:flex;
+    justify-content: flex-end;
+    position: static;
+	list-style: none;
+    margin: 0px;
+	background-color: #bc9d9aa4;
+}
+
+#main-nav p{
+	width:120px;
+	height:52px;
+    text-align: center;
+	line-height:50px;
+	font-size: 100%;
+	
+} 
+
+#main-nav p a {
+    text-decoration: none;
+    color: #fff;
+    display:block;
+	text-transform: uppercase;
+}
+
+#main-nav p a:hover {
+	background-color:#27471485;
+	border-bottom: 2px solid transparent;
+	transition:  0.3s;
+}
+
+/*        End Of Nav-Bar         */
+/*           Profile             */
+
+#profile-container{
+    height: 350px;
+    width: auto;
+    position: static;
+
+}
+.main-profile{
+    margin-left: 17%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile-img{
+    height: 260px;
+    width: 260px;
+}
+
+#hello {
+    font-size: 35px;
+}
+#it {
+    font-size: 35px;
+}
+.main-profile p  {
+    font-size: 20px;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+/*          End Profile          */
+/*         Main-project         */
+
+#project-container{
+    width: auto;
+    height: 490px;
+    position: static;
+    background-image: url(imgs/projectimgs.jpg);
+}
+
+#main-project{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.project{
+    width: 250px;
+    height: 378px;
+    margin-top: 60px;
+    border-radius: 3px;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.932);
+    border-radius: 5px ;
+}
+
+.project:hover {
+    background-color: #3b7b3d5b;
+    border-bottom: 2px solid transparent;
+	transition:  0.3s;
+}
+
+.project-imgs {
+    height: 300px;
+    width: 250px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.project-sub{
+    width: 200px;
+    height: 25px;
+    background-color: rgba(96, 92, 92, 0.4);
+    border-top: 3px solid rgba(255, 255, 255, 0.818); 
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 3px;
+    padding: 26px;
+}
+.project-sub h3{
+    font-size: 20px;
+    color: #f6efee;
+}
+
+/*      End Of main-project         */
+/*        My Skills List           */
+
+#my-skills-container{
+    width: auto;
+    height: 300px;
+    padding: 50px;
+
+}
+#my-skills{
+    display: flex;
+    justify-content: space-between;
+}
+#my-skills-sub{
+    margin-right: 100px;
+}
+
+.list-list ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-list ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    color: #bc9d9a;;
+    background: #cdcac8a4;
+    font-size: 22px;
+    transition: 0.2s;
+
+}
+
+.list-list ul li:nth-child(odd) {
+    background: #f0f0f1;
+}
+
+.list-list ul li:hover {
+    background: #346d3658;
+}
+
+.list-list ul li.checked {
+    background:  #dadace;
+    color: rgb(255, 255, 255);
+    text-decoration: line-through;
+}
+
+input {
+    margin: 0;
+    color: #bc9d9a;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.Add-button {
+    padding: 10px;
+    width: 200px;
+    background: #d9d9d9;
+    color: #bc9d9a;
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.Add-button:hover {
+    background-color: #346d3658;
+    border-bottom: 2px solid transparent;
+	transition:  0.3s;
+}
+#my-skills h1{
+    font-size: 40px;
+    color: #bc9d9a;
+}
+
+/*    End Of  My Skills List     */
+/*            Footer             */
+
+#footer{
+    position: relative;
+    width:auto;
+    height: 50px;
+    background-color: #bc9d9aa4;
+}
+.main-footer  {
+    display: flex;
+    justify-content: space-between;
+}
+.main-footer p{
+    padding: 15px;
+    color: #fff;
+}
+
+/*         End Of Footer            */
+
+/*          Contact Me             */
+
+#contact-me-container {
+    height: auto;
+    width: auto;
+    position: static;
+    background-image: url(imgs/projectimgs.jpg);
+    background-repeat: repeat;
+}
+#back{
+    height: auto;
+    width: auto;
+    background-color: #dadace7e;
+}
+#contact-me {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 650px;
+    width: 500px;
+    margin-left: 30%;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #5d5f5c89;
+    
+}
+.contact{
+    display: block;
+    margin-left: 40px;
+}
+.contact p{
+    color: #ffffff;
+}
+.contact p input {
+    margin: 20px;
+    color: #bc9d9a;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    font-size: 15px;
+}
+.contact .area{
+    color: #bc9d9a;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+.contact .sub {
+    margin-top: 10px;
+    color: #bc9d9a;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 40px;
+    margin-left: 7%;
+    border-radius: 5px;
+}
+
+.contact .sub:hover {
+    background-color: #346d3658;
+    border-bottom: 2px solid transparent;
+	transition:  0.3s;
+}
+
+/*         End Of Contact Me             */
